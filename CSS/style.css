@@ -4,3 +4,17 @@
   border: 3px solid rgb(0, 99, 89);
   color: rgb(88, 0, 171);
 }
+
+h3 {
+  background-color: bisque;
+  padding: 5px;
+  border: solid 2px black;
+  font-family: monospace;
+}
+
+/* universel selector */
+
+* {
+  margin: 0;
+  
+}
