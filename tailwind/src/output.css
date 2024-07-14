@@ -610,6 +610,16 @@ video {
        columns: 3;
 }
 
+.columns-2 {
+  -moz-columns: 2;
+       columns: 2;
+}
+
+.break-after-column {
+  -moz-column-break-after: column;
+       break-after: column;
+}
+
 .items-center {
   align-items: center;
 }
