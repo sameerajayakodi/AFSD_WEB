@@ -615,6 +615,11 @@ video {
        columns: 2;
 }
 
+.break-inside-avoid-column {
+  -moz-column-break-inside: avoid;
+       break-inside: avoid-column;
+}
+
 .break-after-column {
   -moz-column-break-after: column;
        break-after: column;
