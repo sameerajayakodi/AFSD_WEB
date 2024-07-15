@@ -22,3 +22,15 @@
   color: white;
   margin-top: -10px;
 }
+
+.about_section {
+}
+
+.about_container {
+  margin-left: 50px;
+  margin-top: 75px;
+  border: 2px solid #a27172;
+  border-radius: 10px;
+  margin-right: 50px;
+  height: 500px;
+}
