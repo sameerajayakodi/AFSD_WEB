@@ -71,3 +71,8 @@ input {
   padding-left: 25px;
   width: 475px;
 }
+
+.submit_button {
+  padding-left: 0px;
+  width: 100px;
+}
