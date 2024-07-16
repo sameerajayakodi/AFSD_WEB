@@ -59,5 +59,15 @@ img {
 }
 
 .form_div {
-  margin-left: 35%;
+  margin-left: 33%;
+  margin-top: 40px;
+}
+
+input {
+  border: #a27172 solid 2px;
+  border-radius: 5px;
+  padding: 8px 0px 8px 0px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  width: 475px;
 }
