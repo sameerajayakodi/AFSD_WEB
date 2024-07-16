@@ -13,8 +13,12 @@
   color: white;
 }
 
+.nav_items {
+  margin-left: 200px;
+}
+
 .nav_item {
-  margin-left: 250px;
+  margin-left: 125px;
   padding: 12px 20px;
   background-color: #a27172;
   border: 1px solid white;
