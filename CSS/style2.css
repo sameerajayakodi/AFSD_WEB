@@ -5,3 +5,11 @@ h2 {
   font-size: xx-large;
   margin: auto;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+  background-color: antiquewhite;
+}
