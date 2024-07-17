@@ -33,7 +33,7 @@ h2 {
   border-radius: 50px;
   background-color: black;
   position: fixed;
-  bottom: 20px;
+  bottom: 50px;
   left: 20px;
 }
 
@@ -43,9 +43,15 @@ h2 {
   border-radius: 50px;
   background-color: black;
   position: fixed;
-  bottom: 20px;
+  bottom: 50px;
   right: 20px;
 }
 
 .footer {
+  width: 100%;
+  background-color: #73ad21;
+  position: fixed;
+  bottom: 0;
+  padding: 50px 0px 0px 0px;
+  margin-top: 5px;
 }
