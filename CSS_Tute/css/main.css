@@ -17,19 +17,20 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.main_div:hover{
-  transform: scale(1.05); /* Slightly enlarge on hover */
+/* .main_div:hover{
+  transform: scale(1.05); /* Slightly enlarge on hover 
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 
                         0 3px 5px rgba(0, 0, 0, 0.15);
-}
+} */
 
 h1 {
   text-align: center;
 }
 
 p {
+  text-align: center;
   text-indent: 2em;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 @keyframes fadeInScale {
