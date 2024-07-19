@@ -4,6 +4,9 @@ body {
 }
 
 .main_div {
+  border: 2px solid black;
+  padding: 1em;
+  border-radius: 10px;
 }
 
 h1 {
