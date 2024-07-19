@@ -48,6 +48,7 @@
 }
 
 .about_us {
+  text-align: justify;
   margin-top: 50px;
   margin-left: 30px;
   margin-right: 200px;
@@ -65,9 +66,9 @@ img {
 }
 
 input {
-  border: #a27172 solid 2px;
+  border: solid 1px;
   border-radius: 5px;
-  padding: 8px 0px 8px 0px;
+  padding: 12px 0px 12px 0px;
   margin-bottom: 20px;
   padding-left: 25px;
   width: 475px;
