@@ -39,7 +39,7 @@
 
 .title {
   color: #a27172;
-  font-family: monospace;
+  font-family: inter;
   font-weight: 500;
   font-size: 30px;
   font-weight: bold;
@@ -48,6 +48,7 @@
 }
 
 .about_us {
+  font-family: inter;
   text-align: justify;
   margin-top: 50px;
   margin-left: 30px;
@@ -66,6 +67,7 @@ img {
 }
 
 input {
+  font-family: inter;
   border: solid 1px;
   border-radius: 5px;
   padding: 12px 0px 12px 0px;
@@ -80,14 +82,14 @@ input {
 }
 
 footer {
-  padding: 50px;
+  padding: 30px;
   background-color: #7d8077;
 }
 
 .footer_items {
   display: inline-block;
   margin: 20px;
-  font-family: monospace;
+  font-family: inter;
   color: white;
   padding: 20px;
   border: solid white 2px;
