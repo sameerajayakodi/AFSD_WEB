@@ -2,17 +2,19 @@ body {
   background-color: #121212;
   font-family: sans-serif;
   padding: 30%;
+  text-align: center;
 }
 
 .main_div {
+  max-width: 250px;
   background-color: #404040;
   color: #ffffff;
   padding: 1em;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.12); /* White with 20% transparency */
+  background: rgba(255, 255, 255, 0.12);
   border-radius: 10px;
-  backdrop-filter: blur(1px); /* Frosted glass effect */
-  -webkit-backdrop-filter: blur(5px); /* For Safari */
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(5px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -22,10 +24,6 @@ body {
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 
                         0 3px 5px rgba(0, 0, 0, 0.15);
 } */
-
-h1 {
-  text-align: center;
-}
 
 p {
   text-align: center;
