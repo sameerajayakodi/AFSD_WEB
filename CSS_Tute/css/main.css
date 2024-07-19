@@ -6,7 +6,7 @@ body {
 
 .main_div {
   background-color: #404040;
-  color: white;
+  color: #ffffff;
   padding: 1em;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.12); /* White with 20% transparency */
@@ -23,4 +23,11 @@ h1 {
 p {
   text-indent: 2em;
   text-align: justify;
+}
+
+@keyframes fadeInScale {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
