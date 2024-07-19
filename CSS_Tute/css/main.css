@@ -1,8 +1,32 @@
 body {
+  padding: 0;
+  margin: 0;
   background-color: #121212;
   font-family: sans-serif;
   /* padding: 30%; */
   text-align: center;
+}
+
+nav {
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  background-color: #404040;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.12);
+  text-align: center;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+a {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .main_div {
