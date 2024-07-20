@@ -58,9 +58,9 @@ p {
   /* text-align: justify; */
 }
 
-@keyframes fadeInScale {
+/* @keyframes fadeInScale {
   to {
     transform: scale(1);
     opacity: 1;
   }
-}
+} */
