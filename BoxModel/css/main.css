@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 .nav {
   background-color: #a27172;
   padding-top: 30px;
