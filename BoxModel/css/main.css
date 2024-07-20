@@ -87,7 +87,7 @@ footer {
 }
 
 .footer_items {
-  display: inline-block;
+  /* display: inline-block; */
   margin: 30px;
   font-family: inter;
   color: white;
@@ -99,9 +99,11 @@ footer {
 }
 
 .footer_item2 {
-  margin-left: 130px;
+  margin-top: -270px;
+  margin-left: 450px;
 }
 
 .footer_item3 {
-  margin-left: 130px;
+  margin-top: -270px;
+  margin-left: 850px;
 }
