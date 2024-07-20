@@ -12,8 +12,8 @@ nav {
   z-index: 100;
   position: sticky;
   top: 0;
-  background-color: #202020;
-  padding: 15px;
+  background: rgba(255, 255, 255, 0.075);
+  padding: 25px;
 
   text-align: center;
   backdrop-filter: blur(1px);
@@ -30,7 +30,7 @@ nav {
   top: 0;
   width: 10%;
 
-  background-color: #202020;
+  background: rgba(255, 255, 255, 0.075);
   padding: 15px;
 
   text-align: left;
@@ -43,6 +43,17 @@ nav {
   margin-top: 50px;
   right: 0;
   margin-left: 200px;
+}
+.img_container {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #121212;
+  left: 5px;
+  align-items: center;
+  justify-items: center;
+  top: 100px;
 }
 
 a {
@@ -77,11 +88,11 @@ a {
   margin: 5px;
   display: inline-block;
   max-width: 250px;
-  background-color: #404040;
+
   color: #ffffff;
   padding: 1em;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.075);
   border-radius: 10px;
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(5px);
