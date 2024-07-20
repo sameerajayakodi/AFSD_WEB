@@ -22,11 +22,14 @@ nav {
 }
 
 .side_bar {
- 
+  display: block;
+  position: fixed;
   z-index: 100;
   left: 0;
   bottom: 0;
   top: 0;
+  width: 250px;
+  margin-right: 20px;
   background-color: #404040;
   padding: 15px;
   background: rgba(255, 255, 255, 0.12);
