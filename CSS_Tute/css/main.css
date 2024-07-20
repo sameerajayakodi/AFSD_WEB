@@ -9,7 +9,6 @@ body {
 }
 
 nav {
-  border: 1px gray solid;
   z-index: 100;
   position: sticky;
   top: 0;
@@ -23,7 +22,6 @@ nav {
 }
 
 .side_bar {
-  border: 1px gray solid;
   display: block;
   position: fixed;
   z-index: 100;
@@ -58,6 +56,24 @@ a {
 
 .main_div {
   border: 1px gray solid;
+  margin: 5px;
+  display: inline-block;
+  max-width: 250px;
+  background-color: #404040;
+  color: #ffffff;
+  padding: 1em;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 5px;
+}
+
+.main_div:hover {
+  border: 1px white solid;
   margin: 5px;
   display: inline-block;
   max-width: 250px;
