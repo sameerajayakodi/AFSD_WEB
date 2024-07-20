@@ -42,6 +42,7 @@ nav {
 }
 
 .content {
+ 
   margin-top: 50px;
   right: 0;
   margin-left: 200px;
@@ -58,6 +59,7 @@ a {
 
 .main_div {
   border: 1px gray solid;
+  margin: 5px;
   display: inline-block;
   max-width: 250px;
   background-color: #404040;
