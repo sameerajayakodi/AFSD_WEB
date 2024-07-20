@@ -12,7 +12,7 @@ nav {
   z-index: 100;
   position: sticky;
   top: 0;
-  background-color: #404040;
+  background-color: #202020;
   padding: 15px;
   background: rgba(255, 255, 255, 0.12);
   text-align: center;
@@ -22,6 +22,7 @@ nav {
 }
 
 .side_bar {
+  border: 1px gray solid;
   display: block;
   position: fixed;
   z-index: 100;
@@ -30,7 +31,7 @@ nav {
   top: 0;
   width: 250px;
   margin-right: 20px;
-  background-color: #404040;
+  background-color: #202020;
   padding: 15px;
   background: rgba(255, 255, 255, 0.12);
   text-align: left;
@@ -40,6 +41,7 @@ nav {
 }
 
 .content {
+  margin-top: 50px;
   right: 0;
   margin-left: 200px;
 }
