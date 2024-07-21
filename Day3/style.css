@@ -5,7 +5,7 @@ element ekka default position eka static , top bottom denewanm static eka ain ka
 relative --> relative ekta dala top bottom values denna puluwan // thaman inna thana idan position eka hadenawa.
 
 
-absolute --> element eka idahas wenawa , eya na kiyala hithagena anith ewa eya inna thanata enwa. eyawa top bottom dala ona thanakata geniyanna puluwan,eyage parent eliment eka relative karannama ona . nththan eya ynwa relative eliment ekak hoyagena.
+absolute --> element eka nidahas wenawa , eya na kiyala hithagena anith ewa eya inna thanata enwa. eyawa top bottom dala ona thanakata geniyanna puluwan,eyage parent eliment eka relative karannama ona . nththan eya ynwa relative eliment ekak hoyagena.
 */
 * {
   margin: 0;
@@ -46,6 +46,7 @@ absolute --> element eka idahas wenawa , eya na kiyala hithagena anith ewa eya i
 }
 
 .badge {
+  
   border: 2px black solid;
   position: fixed;
   text-align: center;
