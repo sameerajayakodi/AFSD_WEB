@@ -46,6 +46,15 @@ absolute --> element eka idahas wenawa , eya na kiyala hithagena anith ewa eya i
 }
 
 .badge {
+  border: 2px black solid;
+  position: fixed;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(125, 248, 139);
+  bottom: 10px;
+  right: 10px;
 }
 
 #btn {
