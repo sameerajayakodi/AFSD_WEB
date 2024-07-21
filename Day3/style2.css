@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.main_div {
+  position: relative;
+  background-color: rgb(222, 240, 255);
+  width: 500px;
+  height: 350px;
+  border-radius: 40px;
+}
+
+.play {
+  position: relative;
+  top: 25px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  background-color: orangered;
+  border-radius: 50%;
+}
+
+h2 {
+  font-family: monospace;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.play_icon {
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.intro {
+  font-weight: 600;
+  position: absolute;
+  top: 40px;
+  left: 125px;
+  font-family: monospace;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.child_div {
+  bottom: 0px;
+  border-radius: 40px;
+  background-color: rgb(200, 141, 255);
+  position: absolute;
+  width: 500px;
+  height: 250px;
+}
+
+.item1 {
+  position: relative;
+  top: 25px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.item2 {
+  position: relative;
+  top: 25px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.item3 {
+  position: relative;
+  top: 25px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.item1_div {
+  position: relative;
+  margin-bottom: 15px;
+}
+.item2_div {
+  position: relative;
+  margin-bottom: 15px;
+}
+.item3_div {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.play1 {
+  margin-bottom: 20px;
+  position: relative;
+  top: 25px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.intro2 {
+  font-weight: 600;
+  position: absolute;
+  top: 110px;
+  left: 125px;
+  font-family: monospace;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.intro3 {
+  font-weight: 600;
+  position: absolute;
+  top: 180px;
+  left: 125px;
+  font-family: monospace;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.play_icon1 {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+}
