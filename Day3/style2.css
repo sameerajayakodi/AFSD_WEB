@@ -14,9 +14,23 @@ body {
   width: 500px;
   height: 350px;
   border-radius: 40px;
+
+  box-shadow: 5px 10px 30px 1px rgb(108, 108, 108);
 }
 
 .play {
+  border: 3px solid orangered;
+  position: relative;
+  top: 25px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  background-color: orangered;
+  border-radius: 50%;
+}
+
+.play:hover {
+  border: 3px solid rgb(255, 255, 255);
   position: relative;
   top: 25px;
   left: 40px;
@@ -56,49 +70,8 @@ h2 {
   position: absolute;
   width: 500px;
   height: 250px;
-}
-
-.item1 {
-  position: relative;
-  top: 25px;
-  left: 40px;
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  border-radius: 50%;
-}
-
-.item2 {
-  position: relative;
-  top: 25px;
-  left: 40px;
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  border-radius: 50%;
-}
-
-.item3 {
-  position: relative;
-  top: 25px;
-  left: 40px;
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  border-radius: 50%;
-}
-
-.item1_div {
-  position: relative;
-  margin-bottom: 15px;
-}
-.item2_div {
-  position: relative;
-  margin-bottom: 15px;
-}
-.item3_div {
-  position: relative;
-  margin-bottom: 10px;
+  /* border: 1px solid rgb(168, 75, 255); */
+  /* box-shadow: 0px 0px 15px 5px rgb(108, 108, 108); */
 }
 
 .play1 {
@@ -109,6 +82,17 @@ h2 {
   width: 50px;
   height: 50px;
   background-color: white;
+  border-radius: 50%;
+}
+
+.play1:hover {
+  margin-bottom: 20px;
+  position: relative;
+  top: 25px;
+  left: 40px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(229, 229, 229);
   border-radius: 50%;
 }
 
