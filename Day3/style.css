@@ -1,0 +1,15 @@
+/* static --> right , left , top , bottom values denna ba
+element ekka default position eka static , top bottom denewanm static eka ain karanna ona
+*/
+.btn1 {
+  position: relative;
+  /* position: static; */
+  top: 100px;
+  left: 100px;
+  padding: 20px;
+  background-color: aquamarine !important;
+}
+
+#btn {
+  background-color: violet;
+}
