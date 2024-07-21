@@ -1,13 +1,51 @@
 /* static --> right , left , top , bottom values denna ba
 element ekka default position eka static , top bottom denewanm static eka ain karanna ona
+
+
+relative --> relative ekta dala top bottom values denna puluwan // thaman inna thana idan position eka hadenawa.
+
+
+absolute --> element eka idahas wenawa , eya na kiyala hithagena anith ewa eya inna thanata enwa. eyawa top bottom dala ona thanakata geniyanna puluwan,eyage parent eliment eka relative karannama ona . nththan eya ynwa relative eliment ekak hoyagena.
 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .btn1 {
-  position: relative;
-  /* position: static; */
+  position: static;
   top: 100px;
   left: 100px;
   padding: 20px;
   background-color: aquamarine !important;
+}
+
+.btn2 {
+  position: relative;
+  left: 100px;
+  padding: 20px;
+  background-color: violet !important;
+}
+
+.btn3 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 20px;
+  background-color: rgb(130, 198, 238) !important;
+}
+
+.nav {
+  text-align: center;
+  position: sticky;
+  right: 10px;
+  top: 0;
+  padding: 10px;
+  background-color: rgb(238, 189, 130) !important;
+  margin-bottom: 20px;
+}
+
+.badge {
 }
 
 #btn {
