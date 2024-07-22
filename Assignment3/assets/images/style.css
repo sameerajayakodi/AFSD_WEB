@@ -27,8 +27,13 @@ nav {
   margin-left: 3%;
 }
 
-.side-bar{
-    position: relative;
-    
-
+.side-bar {
+  position: absolute;
+  top: 100px;
+  bottom: 0px;
+  left: 0px;
+  margin-left: 10px;
+  background: #e8e8e8;
+  width: 18%;
+  border-radius: 10px;
 }
