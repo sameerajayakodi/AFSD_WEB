@@ -62,3 +62,27 @@ button {
   height: 100vh;
   border-radius: 10px;
 }
+
+h3 {
+  font-family: inter;
+  margin: 20px;
+  color: white;
+}
+
+.des1 {
+  font-family: inter;
+  top: 125px;
+  position: absolute;
+  margin-left: 20px;
+  right: 30px;
+  color: white;
+}
+
+.des2 {
+  font-family: inter;
+  top: 290px;
+  position: absolute;
+  margin-left: 20px;
+  color: white;
+  right: 30px;
+}
