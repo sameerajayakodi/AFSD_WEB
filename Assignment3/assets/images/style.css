@@ -173,3 +173,13 @@ h3 {
   line-height: 150px;
   margin-left: 260px;
 }
+
+footer {
+  z-index: 100;
+  top: 10px;
+  position: sticky;
+  background-color: #bd9292;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
