@@ -180,7 +180,18 @@ footer {
   height: 150px;
   background-color: #bd9292;
   padding: 20px;
-
   margin: -10px 10px 0px 235px;
   left: 200px;
+  color: white;
+  font-family: inter;
+  vertical-align: middle;
+  line-height: 150px;
+  text-align: center;
+}
+
+.fa-whatsapp {
+  position: fixed;
+  background-color: white;
+  top: 500px;
+  right: 20px;
 }
