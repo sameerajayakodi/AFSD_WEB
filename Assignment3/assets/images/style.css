@@ -16,6 +16,7 @@ body {
 }
 
 nav {
+  border: 1px solid #bd9292;
   z-index: 100;
   top: 10px;
   position: sticky;
@@ -36,7 +37,20 @@ nav:hover {
   margin: 10px;
 }
 .fa-youtube {
-  color: white;
+  color: #ff0000;
+  border-radius: 8px;
+  padding: 2px 5px;
+  background-color: white;
+  margin-left: 3%;
+}
+
+.fa-youtube:hover {
+  cursor: pointer;
+  scale: 1.08;
+  color: #ff0000;
+  border-radius: 8px;
+  padding: 2px 5px;
+  background-color: white;
   margin-left: 3%;
 }
 
@@ -55,7 +69,21 @@ nav:hover {
 button {
   margin-top: 50px;
   width: 160px;
-  border: 2px solid white;
+  border: 1px solid #bd9292;
+  border-radius: 5px;
+  padding: 15px 15px;
+  font-family: inter;
+  color: white;
+  background-color: #bd9292;
+  margin-left: 15%;
+}
+
+button:hover {
+  scale: 1.02;
+  cursor: pointer;
+  margin-top: 50px;
+  width: 160px;
+  border: 1px solid white;
   border-radius: 5px;
   padding: 15px 15px;
   font-family: inter;
@@ -121,6 +149,7 @@ h3 {
 }
 
 .div1:hover {
+  cursor: pointer;
   scale: 1.1;
   border: 2px solid white;
   position: relative;
@@ -154,6 +183,7 @@ h3 {
 }
 
 .div2:hover {
+  cursor: pointer;
   scale: 1.1;
   border: 2px solid white;
   position: relative;
@@ -190,6 +220,7 @@ h3 {
 }
 
 .div5:hover {
+  cursor: pointer;
   scale: 1.1;
   border: 2px solid white;
   top: -260px;
@@ -226,6 +257,7 @@ h3 {
 }
 
 .div4:hover {
+  cursor: pointer;
   scale: 1.1;
   border: 2px solid white;
   top: -280px;
@@ -261,6 +293,7 @@ h3 {
 }
 
 .div3:hover {
+  cursor: pointer;
   scale: 1.1;
   border: 2px solid white;
   top: -300px;
@@ -294,11 +327,25 @@ footer {
 }
 
 .fa-whatsapp {
+  border: 2px solid #25d366;
   position: fixed;
-  color: rgb(0, 0, 0);
+  color: white;
   top: 470px;
   right: 35px;
   padding: 30px 15px;
-  background-color: white;
+  background-color: #25d366;
+  border-radius: 50%;
+}
+
+.fa-whatsapp:hover {
+  cursor: pointer;
+  scale: 1.09;
+  border: 2px solid white;
+  position: fixed;
+  color: white;
+  top: 470px;
+  right: 35px;
+  padding: 30px 15px;
+  background-color: #25d366;
   border-radius: 50%;
 }
