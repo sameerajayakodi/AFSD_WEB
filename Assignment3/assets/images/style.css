@@ -45,7 +45,7 @@ nav {
 button {
   margin-top: 50px;
   width: 160px;
-  border: none;
+  border: 2px solid white;
   border-radius: 5px;
   padding: 15px 15px;
   font-family: inter;
@@ -96,6 +96,7 @@ h3 {
 }
 
 .div1 {
+  border: 2px solid white;
   position: relative;
   background-color: rgb(86, 0, 173);
   width: 150px;
@@ -110,6 +111,7 @@ h3 {
 }
 
 .div2 {
+  border: 2px solid white;
   position: relative;
   background-color: rgb(255, 136, 156);
   width: 150px;
