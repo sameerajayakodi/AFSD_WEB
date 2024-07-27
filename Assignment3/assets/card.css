@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.main {
+  box-shadow: 0px 1px 14px -1px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgb(249, 249, 249);
+  position: relative;
+
+  margin: 10%;
+  height: 430px;
+  width: 350px;
+}
+
+img {
+  height: 230px;
+  width: 350px;
+  z-index: 1;
+  position: relative;
+  border-radius: 10px 10px 0 0;
+}
+
+h2 {
+  margin-top: 15px;
+  position: relative;
+  font-family: inter;
+  color: #2d84c5;
+  margin-left: 15px;
+}
+
+p {
+  color: #5e59a1;
+  margin-top: 5px;
+  font-family: inter;
+  font-size: small;
+  margin-left: 15px;
+}
+
+.icons {
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-whatsapp {
+  color: rgb(4, 209, 4);
+}
+
+.more {
+  font-weight: bold;
+  font-family: inter;
+  right: -75px;
+  position: relative;
+  color: orange;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.life {
+  text-shadow: 4px 5px 4px #000000;
+  color: white;
+  font-size: 80px;
+  font-family: inter;
+
+  z-index: 50;
+  position: absolute;
+  top: 70px;
+  left: 90px;
+}
