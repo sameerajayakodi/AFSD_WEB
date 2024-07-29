@@ -7,5 +7,6 @@ body {
   color: #fff;
   width: 30vw;
   height: 30vw;
-  background-color: #333;
+  background-color: #000;
+  padding: 1rem;
 }
