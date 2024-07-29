@@ -2,3 +2,10 @@ body {
   font-size: 1.5rem;
   font-family: "roboto";
 }
+
+.block {
+  color: #fff;
+  width: 30vw;
+  height: 30vw;
+  background-color: #333;
+}
