@@ -21,3 +21,7 @@ main {
   padding: 4rem;
   height: 4rem;
 } */
+
+ul {
+  list-style-type: none;
+}
