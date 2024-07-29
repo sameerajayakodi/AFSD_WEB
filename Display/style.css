@@ -29,7 +29,7 @@ main {
 
 ul {
   list-style-type: none;
-  padding-left: 0;
+  padding: 0.5rem;
   text-align: right;
   background-color: #000;
   margin: 0;
@@ -38,4 +38,10 @@ ul {
 li {
   display: inline-block;
   margin-inline: 0.5rem;
+}
+
+a {
+  font-family: roboto;
+  color: whitesmoke;
+  text-decoration: none;
 }
