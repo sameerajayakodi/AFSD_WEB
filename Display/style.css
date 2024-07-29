@@ -40,8 +40,14 @@ li {
   margin-inline: 0.5rem;
 }
 
-a {
+li a {
   font-family: roboto;
   color: whitesmoke;
+  text-decoration: none;
+}
+
+li a:hover {
+  font-family: roboto;
+  color: lightpink;
   text-decoration: none;
 }
