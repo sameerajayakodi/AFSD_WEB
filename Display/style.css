@@ -8,3 +8,7 @@ body {
 p {
   background-color: lightgray;
 }
+
+main {
+  background-color: aqua;
+}
