@@ -72,5 +72,9 @@ body {
 }
 
 .socialLink {
+  font-size: smaller;
   color: #25d366;
+  background-color: rgba(199, 255, 231, 0.521);
+  padding: 0.1rem 0.25rem;
+  border-radius: 2rem;
 }
