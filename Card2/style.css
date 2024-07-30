@@ -35,7 +35,7 @@ body {
 .right {
   display: flex;
   position: relative;
-  background-color: lightgreen;
+  background-color: white;
   width: 50%;
   height: 100%;
   border-radius: 0 1rem 1rem 0;
