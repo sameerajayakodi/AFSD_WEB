@@ -121,3 +121,10 @@ a {
   position: relative;
   color: orange;
 }
+
+.background {
+  right: 2rem;
+  top: 5rem;
+  position: relative;
+  height: 50%;
+}
