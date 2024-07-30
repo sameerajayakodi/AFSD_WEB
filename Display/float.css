@@ -39,3 +39,7 @@ body {
   padding: 1rem;
   display: flow-root;
 }
+
+input:focus:invalid {
+  background-color: lightcoral;
+}
