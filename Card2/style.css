@@ -73,9 +73,9 @@ body {
 }
 
 .socialLink {
+  left: 2rem;
   position: absolute;
   display: inline;
-
   font-size: smaller;
   color: #25d366;
   background-color: rgba(199, 255, 231, 0.521);
@@ -91,6 +91,18 @@ body {
 
 .so {
   margin-bottom: 2rem;
-  align-items: center;
   display: flex;
+}
+
+.socialLink1 {
+  top: 1.1rem;
+}
+.socialLink1 {
+  top: 1.1rem;
+}
+.socialLink1 {
+  top: 1.1rem;
+}
+.socialLink1 {
+  top: 1.1rem;
 }
