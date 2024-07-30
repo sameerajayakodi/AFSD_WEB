@@ -83,4 +83,5 @@ body {
   position: absolute;
   left: 0;
   margin-right: 10px;
+  border-radius: 50%;
 }
