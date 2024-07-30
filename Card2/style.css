@@ -42,6 +42,9 @@ body {
 }
 
 .title {
+  top: 2rem;
+  left: 2rem;
+  position: relative;
   color: #333;
   font-family: inter;
   font-weight: bold;
