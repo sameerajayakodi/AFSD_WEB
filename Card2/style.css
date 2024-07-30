@@ -59,3 +59,10 @@ body {
   font-weight: 600;
   font-size: small;
 }
+
+.social {
+  position: relative;
+  top: 7rem;
+  line-height: 0.8rem;
+  text-align: left;
+}
