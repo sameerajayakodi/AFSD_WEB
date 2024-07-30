@@ -65,4 +65,8 @@ body {
   top: 7rem;
   line-height: 0.8rem;
   text-align: left;
+  font-family: inter;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #333;
 }
