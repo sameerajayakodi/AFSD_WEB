@@ -61,7 +61,8 @@ body {
 }
 
 .social {
-  position: relative;
+  left: 2.5rem;
+  position: absolute;
   top: 7rem;
   line-height: 0.8rem;
   text-align: left;
@@ -72,6 +73,9 @@ body {
 }
 
 .socialLink {
+  position: absolute;
+  display: inline;
+
   font-size: smaller;
   color: #25d366;
   background-color: rgba(199, 255, 231, 0.521);
@@ -80,8 +84,13 @@ body {
 }
 
 .socialImg {
-  position: absolute;
-  left: 0;
+  position: relative;
   margin-right: 10px;
   border-radius: 50%;
+}
+
+.so {
+  margin-bottom: 2rem;
+  align-items: center;
+  display: flex;
 }
