@@ -128,3 +128,9 @@ a {
   position: relative;
   height: 50%;
 }
+
+.right_des {
+  font-family: inter;
+  font-weight: bold;
+  color: #333;
+}
