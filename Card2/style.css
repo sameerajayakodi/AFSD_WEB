@@ -26,7 +26,7 @@ body {
 .left {
   display: flex;
   position: relative;
-  background-color: lightcoral;
+  background-color: white;
   width: 50%;
   height: 100%;
   border-radius: 1rem 0 0 1rem;
@@ -43,9 +43,19 @@ body {
 
 .title {
   top: 2rem;
-  left: 2rem;
+  left: 3rem;
   position: relative;
   color: #333;
   font-family: inter;
   font-weight: bold;
+}
+
+.title2 {
+  top: 5rem;
+  left: 2.5rem;
+  position: absolute;
+  color: rgb(175, 175, 175);
+  font-family: inter;
+  font-weight: 600;
+  font-size: small;
 }
