@@ -109,3 +109,15 @@ body {
 .socialLink4 {
   top: 13.1rem;
 }
+
+a {
+  text-align: center;
+  font-weight: bold;
+  font-family: inter;
+  text-decoration: none;
+  top: 2rem;
+  left: 70%;
+  display: flex;
+  position: relative;
+  color: orange;
+}
