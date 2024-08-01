@@ -27,7 +27,7 @@ body {
 .flex-container {
   border-radius: 1rem;
   padding: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -55,6 +55,8 @@ body {
 .new {
   background-color: lightgreen;
   display: inline;
-  padding: 1px 2px;
+  padding: 2px 3px;
   border-radius: 1rem;
+  font-size: smaller;
+  font-weight: bold;
 }
