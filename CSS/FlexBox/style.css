@@ -56,9 +56,9 @@ body {
   color: green;
   background-color: rgba(195, 255, 218, 0.578);
   display: inline;
-  padding: 2px 3px;
-  border-radius: 1rem;
-  font-size: smaller;
+  padding: 3px 5px;
+  border-radius: 10px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -76,10 +76,13 @@ body {
 }
 
 .box1 {
+  position: relative;
+  left: 1rem;
   font-weight: bold;
 }
 
 .box8 {
+  font-weight: 500;
   align-self: center;
 }
 
