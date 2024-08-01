@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  margin: 2rem;
+}
+
 .box {
   background-color: aquamarine;
   border-radius: 5px;
