@@ -60,3 +60,27 @@ body {
   font-size: smaller;
   font-weight: bold;
 }
+
+.social_img {
+  border-radius: 50%;
+  padding: 3px;
+  background-color: orange;
+  position: absolute;
+}
+
+.sigumaga {
+  position: relative;
+  left: 3rem;
+}
+
+.box8 {
+  align-self: center;
+}
+
+.button {
+  align-self: center;
+}
+
+.box7 {
+  align-self: flex-end;
+}
