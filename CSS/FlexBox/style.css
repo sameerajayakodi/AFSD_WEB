@@ -18,7 +18,7 @@ body {
 }
 
 .box {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   border-radius: 5px;
   margin: 2px;
   padding: 10px;
@@ -53,4 +53,8 @@ body {
 }
 
 .new {
+  background-color: lightgreen;
+  display: inline;
+  padding: 1px 2px;
+  border-radius: 1rem;
 }
