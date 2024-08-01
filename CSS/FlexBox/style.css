@@ -21,9 +21,5 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
-  align-items: flex-end;
-}
-
-.box3 {
-  background-color: bisque;
+  align-items: flex-start;
 }
