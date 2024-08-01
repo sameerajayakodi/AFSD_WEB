@@ -23,3 +23,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
 }
+
+.box3 {
+  background-color: bisque;
+}
