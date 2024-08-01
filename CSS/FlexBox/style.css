@@ -103,3 +103,21 @@ body {
   font-weight: 600;
   font-size: 17px;
 }
+
+.image {
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.addNew {
+  color: white;
+  font-weight: 600;
+}
+
+.plus {
+  margin-right: 5px;
+  color: black;
+  padding: 0 3px;
+  background-color: white;
+  border-radius: 50%;
+}
