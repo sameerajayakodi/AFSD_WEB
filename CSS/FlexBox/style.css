@@ -53,7 +53,8 @@ body {
 }
 
 .new {
-  background-color: lightgreen;
+  color: green;
+  background-color: rgba(195, 255, 218, 0.578);
   display: inline;
   padding: 2px 3px;
   border-radius: 1rem;
@@ -69,8 +70,13 @@ body {
 }
 
 .sigumaga {
+  font-weight: bold;
   position: relative;
   left: 3rem;
+}
+
+.box1 {
+  font-weight: bold;
 }
 
 .box8 {
@@ -82,5 +88,7 @@ body {
 }
 
 .box7 {
+  font-weight: bold;
+  color: rgb(255, 98, 0);
   align-self: flex-end;
 }
