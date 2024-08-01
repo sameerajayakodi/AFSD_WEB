@@ -4,7 +4,9 @@
 }
 
 body {
-  margin: 2rem;
+  min-width: fit-content;
+  max-width: 50%;
+  margin: 2rem auto;
 }
 
 .box {
@@ -27,4 +29,10 @@ body {
 
 .box1 {
   margin-bottom: 1rem;
+}
+
+.box7 {
+  align-self: flex-end;
+  position: relative;
+  top: -50px;
 }
