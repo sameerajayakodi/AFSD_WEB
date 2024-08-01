@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 p {
   background-color: lightgoldenrodyellow;
   margin-bottom: 1rem;
@@ -14,5 +21,6 @@ p {
 }
 
 .columns {
+  margin: auto;
   column-count: 4;
 }
