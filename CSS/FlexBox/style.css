@@ -5,7 +5,7 @@
 }
 
 button {
-  background-color: orange;
+  background-color: rgb(255, 98, 0);
   border: none;
   padding: 0.5rem 1.5rem;
   border-radius: 1rem;
@@ -65,7 +65,7 @@ body {
 .social_img {
   border-radius: 50%;
   padding: 5px;
-  background-color: orange;
+  background-color: rgb(255, 98, 0);
   position: absolute;
 }
 
@@ -116,7 +116,7 @@ body {
 
 .plus {
   margin-right: 5px;
-  color: black;
+  color: rgb(255, 98, 0);
   padding: 0 3px;
   background-color: white;
   border-radius: 50%;
