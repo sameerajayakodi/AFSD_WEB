@@ -13,6 +13,28 @@
 }
 
 .flex {
+  justify-content: center;
+  flex-wrap: wrap;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: column-reverse;
+}
+
+.item-2 {
+  font-weight: bold;
+  font-family: inter;
+  color: #333;
+  align-content: center;
+  text-align: center;
+  width: 150px;
+  height: 100px;
+  background-color: lightsalmon;
+  border: 2px solid black;
+  margin: 5px;
+  border-radius: 5px;
 }
