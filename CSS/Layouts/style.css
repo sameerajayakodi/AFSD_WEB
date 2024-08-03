@@ -22,6 +22,7 @@
 }
 
 .item-2 {
+  width: 250px;
   background-color: lightseagreen;
   height: 750px;
   grid-row-start: 2;
