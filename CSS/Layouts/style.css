@@ -1,6 +1,6 @@
 .grid {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
 }
 
 .item {
@@ -13,4 +13,9 @@
   height: 100px;
   text-align: center;
   align-content: center;
+}
+
+.item-1 {
+  grid-column-start: 1;
+  grid-column-end: 7;
 }
