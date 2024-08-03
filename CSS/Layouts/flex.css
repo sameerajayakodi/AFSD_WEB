@@ -1,8 +1,18 @@
 .item {
-  width: 200px;
+  font-weight: bold;
+  font-family: inter;
+  color: #333;
+  align-content: center;
+  text-align: center;
+  width: 150px;
   height: 100px;
   background-color: lightpink;
   border: 2px solid black;
   margin: 5px;
   border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row-reverse;
 }
