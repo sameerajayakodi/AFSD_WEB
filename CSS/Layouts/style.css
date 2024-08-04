@@ -9,10 +9,11 @@
   font-family: inter;
   border-radius: 5px;
   background-color: lightgreen;
-  margin: 10px;
+  margin: 5px;
   height: 100px;
   text-align: center;
   align-content: center;
+  overflow: hidden;
 }
 
 .item-1 {
