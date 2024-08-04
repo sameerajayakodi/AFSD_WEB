@@ -12,11 +12,13 @@
   margin: 5px;
   height: 100px;
   text-align: center;
-
-  overflow: hidden;
+  overflow-wrap: anywhere;
 }
 
 .item-1 {
+  margin-top: 5px;
+  top: 0;
+  position: sticky;
   align-content: center;
   background-color: #333;
   grid-column-start: 1;
@@ -31,7 +33,7 @@
 }
 .item-3 {
   background-color: lightpink;
-  height: 750px;
+  height: 100%;
   grid-row-start: 2;
   grid-row-end: 5;
   grid-column-start: 2;
@@ -59,6 +61,8 @@ a {
   text-decoration: none;
 }
 .item-12 {
+  bottom: 0;
+  position: relative;
   color: white;
   background-color: #333;
   grid-column-start: 1;
