@@ -93,6 +93,11 @@ a {
   justify-content: center;
   display: flex;
   font-size: 7rem;
+  background: linear-gradient(to top, #4c4c4c, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* fallback color for older browsers */
+  color: #eb3a0d;
 }
 
 .flex {
@@ -102,6 +107,9 @@ a {
 }
 
 .item-flex {
+  border: 5px solid rgb(245, 245, 245);
+  border-radius: 1rem;
+  font-family: inter;
   margin: 5px;
   align-content: center;
   text-align: center;
