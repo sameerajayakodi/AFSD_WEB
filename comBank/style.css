@@ -8,15 +8,17 @@ body {
 }
 
 .bank-services {
-  justify-content: center;
+  margin-top: 20%;
   padding: 40px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   background-color: blue;
 }
 
 .sub-title {
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.5rem;
+  align-self: center;
+  margin-bottom: 2rem;
   display: block;
   width: 100%;
 }
@@ -30,11 +32,17 @@ body {
 }
 
 .owl-carousel {
-  position: relative;
+  margin: 0 2rem 0 2rem;
+  justify-content: center;
   display: flex;
+  gap: 2rem;
   flex-direction: row;
 }
 
 a {
   text-decoration: none;
+}
+
+.button {
+  font-size: 0.9rem;
 }
