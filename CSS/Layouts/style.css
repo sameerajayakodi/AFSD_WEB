@@ -85,3 +85,19 @@ a {
 .heading {
   color: white;
 }
+
+.flex {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-flex {
+  margin: 5px;
+  align-content: center;
+  text-align: center;
+  color: white;
+  width: 200px;
+  height: 200px;
+  background-color: darkmagenta;
+}
