@@ -2,3 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: Helvetica;
+}
+
+.bank-services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: blue;
+}
