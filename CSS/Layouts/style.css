@@ -84,6 +84,9 @@ a {
 }
 
 .heading {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
   font-size: 7rem;
   color: #333;
 }
