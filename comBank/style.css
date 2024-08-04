@@ -9,7 +9,6 @@ body {
 
 .bank-services {
   justify-content: center;
-  align-content: center;
   padding: 20px;
   display: flex;
   flex-direction: row;
