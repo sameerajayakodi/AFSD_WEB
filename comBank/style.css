@@ -17,6 +17,8 @@ body {
 
 .sub-title {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 a {
@@ -28,6 +30,7 @@ a {
 }
 
 .owl-carousel {
+  position: relative;
   display: flex;
   flex-direction: row;
 }
