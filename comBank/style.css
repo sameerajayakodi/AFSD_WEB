@@ -8,8 +8,26 @@ body {
 }
 
 .bank-services {
+  padding: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: blue;
+}
+
+.sub-title {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  padding: 2px 8px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.owl-carousel {
+  display: flex;
+  flex-direction: row;
 }
