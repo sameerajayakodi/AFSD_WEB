@@ -9,7 +9,7 @@ body {
 
 .bank-services {
   justify-content: center;
-  padding: 20px;
+  padding: 40px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -24,13 +24,17 @@ body {
 .item {
   text-decoration: none;
   color: #333;
-  padding: 2px 8px;
+  padding: 1rem;
   background-color: white;
-  border-radius: 25px;
+  border-radius: 2rem;
 }
 
 .owl-carousel {
   position: relative;
   display: flex;
   flex-direction: row;
+}
+
+a {
+  text-decoration: none;
 }
