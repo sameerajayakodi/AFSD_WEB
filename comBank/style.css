@@ -24,6 +24,7 @@ body {
 }
 
 .item {
+  transition: transform 0.1s ease-in-out;
   text-decoration: none;
   padding: 0.6rem 1.1rem;
   background-color: white;
@@ -31,7 +32,8 @@ body {
 }
 
 .item:hover {
-  scale: 0.98;
+  transform: scale(0.98);
+  scale: 0.99;
   text-decoration: none;
   padding: 0.6rem 1.1rem;
   background-color: white;
