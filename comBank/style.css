@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: Helvetica;
+  font-family: Nunito;
 }
 
 .bank-services {
@@ -18,29 +18,37 @@ body {
   text-align: center;
   font-size: 1.5rem;
   align-self: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   display: block;
   width: 100%;
 }
 
 .item {
   text-decoration: none;
-  padding: 0.8rem 1.2rem;
+  padding: 0.6rem 1.1rem;
   background-color: white;
-  border-radius: 2rem;
+  border-radius: 3rem;
+}
+
+.item:hover {
+  scale: 0.98;
+  text-decoration: none;
+  padding: 0.6rem 1.1rem;
+  background-color: white;
+  border-radius: 3rem;
 }
 
 .owl-carousel {
-  margin: 0 2rem 0 2rem;
+  margin: 0 2rem 1rem 2rem;
   justify-content: center;
   display: flex;
   gap: 1rem;
-  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 a {
   font-size: 17px;
-  font-weight: 550;
   color: #1d1b2d;
   text-decoration: none;
 }
