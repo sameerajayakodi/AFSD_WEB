@@ -12,11 +12,12 @@
   margin: 5px;
   height: 100px;
   text-align: center;
-  align-content: center;
+
   overflow: hidden;
 }
 
 .item-1 {
+  align-content: center;
   background-color: #333;
   grid-column-start: 1;
   grid-column-end: 7;
@@ -83,7 +84,8 @@ a {
 }
 
 .heading {
-  color: white;
+  font-size: 7rem;
+  color: #333;
 }
 
 .flex {
