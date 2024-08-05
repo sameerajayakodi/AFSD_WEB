@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 body {
   font-family: inter;
 }
@@ -123,6 +128,10 @@ ul {
 }
 
 .section6 {
+  font-weight: bold;
+  margin: 0;
+  background-color: #d9d9d9;
+  padding: 5rem;
   grid-column-start: 1;
   grid-column-end: 4;
 }
@@ -135,9 +144,15 @@ input {
 }
 
 .btn {
+  cursor: pointer;
   font-weight: bold;
   border: none;
   background-color: #81cb80;
+}
+
+button {
+  width: 100%;
+  border: none;
 }
 
 label {
@@ -164,6 +179,34 @@ label {
 
 .card-description {
   text-align: left;
+}
+
+.contact {
+  right: 1rem;
+  top: 80vh;
+  position: fixed;
+  align-content: center;
+  text-align: center;
+  background-color: #db8c33;
+  height: 5rem;
+  width: 5rem;
+  color: white;
+  border-radius: 50%;
+}
+
+.contact:hover {
+  cursor: pointer;
+  scale: 1.1;
+  right: 1rem;
+  top: 80vh;
+  position: fixed;
+  align-content: center;
+  text-align: center;
+  background-color: #db8c33;
+  height: 5rem;
+  width: 5rem;
+  color: white;
+  border-radius: 50%;
 }
 
 /* /////////////////////////////////////////////////////////////////// */
