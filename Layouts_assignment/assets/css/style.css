@@ -62,11 +62,12 @@ ul {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   display: grid;
   margin: 0 10rem;
-  background-color: lightgoldenrodyellow;
+  background-color: #e9e6e6;
 }
 
 .inputs {
-  background-color: lightpink;
+  text-align: left;
+  background-color: #e9e6e6;
   padding: 1rem;
   margin: 5px;
 }
@@ -130,4 +131,11 @@ ul {
 .section6 {
   grid-column-start: 1;
   grid-column-end: 4;
+}
+
+input {
+  width: 100%;
+  background-color: #e9e6e6;
+  border-radius: 5px;
+  padding: 0.5rem;
 }
