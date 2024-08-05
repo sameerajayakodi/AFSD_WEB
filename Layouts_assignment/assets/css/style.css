@@ -58,62 +58,55 @@ ul {
 }
 
 .form_div {
+  padding: 1rem;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   display: grid;
-
+  margin: 0 10rem;
   background-color: lightgoldenrodyellow;
 }
 
 .inputs {
-  background-color: darkblue;
+  background-color: lightpink;
   padding: 1rem;
   margin: 5px;
 }
 
 .input-1 {
-  background-color: #db8c33;
   grid-column-start: 1;
   grid-column-end: 7;
 }
 
 .input-2 {
-  background-color: #d5db33;
   grid-column-start: 7;
   grid-column-end: 13;
 }
 
 .input-3 {
-  background-color: #db3e33;
   grid-column-start: 1;
   grid-column-end: 5;
 }
 
 .input-4 {
-  background-color: #db3e33;
   grid-column-start: 5;
   grid-column-end: 9;
 }
 
 .input-5 {
-  background-color: #db3e33;
   grid-column-start: 9;
   grid-column-end: 14;
 }
 
 .input-6 {
-  background-color: #db3e33;
   grid-column-start: 1;
   grid-column-end: 5;
 }
 
 .input-7 {
-  background-color: #db3e33;
   grid-column-start: 5;
   grid-column-end: 14;
 }
 
 .input-8 {
-  background-color: #db3e33;
   grid-column-start: 9;
   grid-column-end: 14;
 }
