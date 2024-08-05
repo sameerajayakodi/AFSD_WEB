@@ -26,7 +26,8 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
+  align-items: center;
+  justify-content: space-between;
   color: white;
   padding: 1rem;
   margin: 0;
@@ -40,8 +41,11 @@ body {
 }
 
 ul {
-  gap: 20px;
+  padding: 0 1rem;
+  gap: 8rem;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   list-style: none;
 }
 
@@ -53,6 +57,13 @@ ul {
   grid-column-end: 4;
 }
 
+.form {
+}
+
+.form_div {
+  padding: 1rem;
+  background-color: lightgoldenrodyellow;
+}
 .section3 {
   grid-column-start: 1;
   grid-column-end: 2;
