@@ -52,18 +52,15 @@ ul {
 .section2 {
   border: 1px solid #333;
   background-color: white;
-  margin: 0;
+
   grid-column-start: 1;
   grid-column-end: 4;
-  margin-left: 200px;
-  margin-right: 200px;
 }
 
 .form_div {
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   display: grid;
-  justify-content: center;
-  padding: 1rem;
+
   background-color: lightgoldenrodyellow;
 }
 
@@ -73,7 +70,56 @@ ul {
   margin: 5px;
 }
 
+.input-1 {
+  background-color: #db8c33;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.input-2 {
+  background-color: #d5db33;
+  grid-column-start: 7;
+  grid-column-end: 13;
+}
+
+.input-3 {
+  background-color: #db3e33;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.input-4 {
+  background-color: #db3e33;
+  grid-column-start: 5;
+  grid-column-end: 9;
+}
+
+.input-5 {
+  background-color: #db3e33;
+  grid-column-start: 9;
+  grid-column-end: 14;
+}
+
+.input-6 {
+  background-color: #db3e33;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.input-7 {
+  background-color: #db3e33;
+  grid-column-start: 5;
+  grid-column-end: 14;
+}
+
+.input-8 {
+  background-color: #db3e33;
+  grid-column-start: 9;
+  grid-column-end: 14;
+}
+
 .section3 {
+  height: auto;
   grid-column-start: 1;
   grid-column-end: 2;
 }
