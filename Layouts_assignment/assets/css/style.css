@@ -55,19 +55,22 @@ ul {
   margin: 0;
   grid-column-start: 1;
   grid-column-end: 4;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .form_div {
-  display: flex;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  display: grid;
   justify-content: center;
   padding: 1rem;
   background-color: lightgoldenrodyellow;
 }
 
-.form {
-  max-width: 800px;
-  display: grid;
-  grid-template-columns: auto auto auto;
+.inputs {
+  background-color: darkblue;
+  padding: 1rem;
+  margin: 5px;
 }
 
 .section3 {
