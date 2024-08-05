@@ -9,6 +9,11 @@ a {
   color: white;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
 body {
   font-family: inter;
 }
@@ -149,6 +154,12 @@ input {
   border: none;
   background-color: #81cb80;
 }
+.btn:hover {
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(0, 180, 0);
+}
 
 button {
   width: 100%;
@@ -169,7 +180,12 @@ label {
   padding: 4rem 1rem;
   border-radius: 10px;
   background-color: #db8c33;
+
   text-align: center;
+}
+
+.card:hover {
+  scale: 1.03;
 }
 
 .card-image {
@@ -192,21 +208,13 @@ label {
   width: 5rem;
   color: white;
   border-radius: 50%;
+  border: 2px solid #333;
 }
 
 .contact:hover {
+  border: 2px solid #333;
   cursor: pointer;
   scale: 1.1;
-  right: 1rem;
-  top: 80vh;
-  position: fixed;
-  align-content: center;
-  text-align: center;
-  background-color: #db8c33;
-  height: 5rem;
-  width: 5rem;
-  color: white;
-  border-radius: 50%;
 }
 
 /* /////////////////////////////////////////////////////////////////// */
