@@ -39,6 +39,12 @@ body {
   width: 50%;
 }
 
+ul {
+  gap: 20px;
+  display: flex;
+  list-style: none;
+}
+
 .section2 {
   border: 1px solid #333;
   background-color: white;
