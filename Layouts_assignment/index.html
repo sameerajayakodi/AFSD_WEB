@@ -10,7 +10,7 @@
     <div class="main">
       <div class="section section1">
         <div>
-          <img src="./assets/images/logo.png" alt="logo" />
+          <img class="logo" src="./assets/images/logo.png" alt="logo" />
         </div>
         <div class="nav">
           <ul>
@@ -22,7 +22,60 @@
           </ul>
         </div>
       </div>
-      <div class="section section2">2</div>
+      <div class="section section2">
+        <div class="form_div">
+          <form class="form" action="#form_action" method="post">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" required />
+            </div>
+
+            <div class="form-group">
+              <label for="secondName">Second Name</label>
+              <input type="text" id="secondName" name="secondName" required />
+            </div>
+
+            <div class="form-group">
+              <label>Gender</label>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label>
+              <input type="radio" id="other" name="gender" value="other" />
+              <label for="other">Other</label>
+            </div>
+
+            <div class="form-group">
+              <label for="nic">NIC</label>
+              <input type="text" id="nic" name="nic" required />
+            </div>
+
+            <div class="form-group">
+              <label for="contact">Contact</label>
+              <input type="tel" id="contact" name="contact" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="address">Address</label>
+              <textarea
+                id="address"
+                name="address"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
       <div class="section section3">3</div>
       <div class="section section4">4</div>
       <div class="section section5">5</div>
