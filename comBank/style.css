@@ -58,7 +58,7 @@ a {
 .card_section {
   font-family: Nunito;
   margin-top: 2rem;
-  padding: 2rem;
+  padding: 2rem 7rem;
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
@@ -67,8 +67,13 @@ a {
 .card {
   font-size: 16px;
   box-shadow: 0 8px 14px 0 rgba(10, 5, 74, 0.15);
-  padding: 2rem;
+  padding: 1.8rem;
   width: 7rem;
   text-align: center;
   border-radius: 5px;
+}
+
+.card > i {
+  color: #0955bd;
+  margin-bottom: 1.5rem;
 }
