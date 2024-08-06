@@ -65,12 +65,24 @@ a {
   border: 1px solid black;
 }
 .card {
+  transition: transform 0.2s ease-in-out;
   font-size: 16px;
   box-shadow: 0 8px 14px 0 rgba(10, 5, 74, 0.15);
   padding: 1.8rem;
   width: 6.5rem;
   text-align: center;
   border-radius: 5px;
+}
+
+.card:hover {
+  transform: scale(0.98);
+  scale: 0.99;
+  cursor: pointer;
+  i {
+    color: white;
+  }
+  color: white;
+  background-color: linear-gradient(to right, #0949a2, #095bcc);
 }
 
 .card > i {
