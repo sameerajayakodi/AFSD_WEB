@@ -54,3 +54,14 @@ a {
   color: #1d1b2d;
   text-decoration: none;
 }
+
+.card_section {
+  margin-top: 2rem;
+  padding: 2rem;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightsalmon;
+}
+.card {
+}
