@@ -28,7 +28,7 @@ body {
   text-decoration: none;
   padding: 0.6rem 1.1rem;
   background-color: white;
-  border-radius: 3rem;
+  border-radius: 50px;
 }
 
 .item:hover {
