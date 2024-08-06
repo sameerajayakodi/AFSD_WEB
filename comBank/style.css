@@ -56,13 +56,13 @@ a {
 }
 
 .card_section {
+  gap: 1rem;
   font-family: Nunito;
   margin-top: 2rem;
   padding: 2rem 7rem;
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid black;
 }
 .card {
   transition: transform 0.3s ease-in-out;
