@@ -26,15 +26,16 @@ body {
 
   min-width: 300px;
   padding: 60px;
-
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 20px;
+.logo-desctop {
+  align-self: center;
+  text-align: center;
+  width: 50px;
 }
 
 h2 {
@@ -123,4 +124,8 @@ p a {
   background-image: url("background.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.logo-mobile {
+  display: none;
 }
