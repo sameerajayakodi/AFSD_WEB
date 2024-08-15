@@ -110,6 +110,10 @@ p {
   font-size: 14px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
 p a {
   color: #ff5722;
   text-decoration: none;
