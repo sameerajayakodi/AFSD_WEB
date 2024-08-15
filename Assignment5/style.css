@@ -1,4 +1,5 @@
 body {
+  text-align: center;
   margin: 0;
   font-family: Arial, sans-serif;
   display: flex;
@@ -10,6 +11,7 @@ body {
 }
 
 .container {
+  text-align: center;
   display: flex;
   width: 900px;
   height: 100vh;
@@ -17,6 +19,7 @@ body {
 }
 
 .login-container {
+  text-align: center;
   border-radius: 0 1rem 1rem 0;
   background-color: white;
   min-width: 400px;
@@ -25,12 +28,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.logo-desctop {
-  align-self: center;
-  text-align: center;
-  width: 50px;
 }
 
 h2 {
@@ -121,83 +118,60 @@ p a {
   background-position: center;
 }
 
-.logo-mobile {
-  display: none;
-}
 .google-icon {
   position: relative;
   top: 2px;
   width: 20px;
 }
+
+.logo-desctop {
+  width: 50px;
+}
+
+.logo-mobile {
+  display: none;
+}
 /* ////////////////////////////// */
 @media (max-width: 426px) {
   body {
+    text-align: center;
     background-size: cover;
     background-position: center;
     background-image: url(./background.jpeg);
-    background-attachment: fixed; /* Ensures the background image stays fixed */
-    margin: 0;
+    background-attachment: fixed; /* Keeps the background image fixed */
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
-    height: auto;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-  }
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    min-width: 300px;
-    width: 100%;
-    height: auto;
-    border-radius: 0;
-    justify-content: center;
-    margin-top: 20px;
-    padding: 0 15px;
-    box-sizing: border-box; /* Prevent overflow due to padding */
-    overflow-x: hidden; /* Prevent horizontal scrolling in the container */
+    text-align: center;
   }
 
   .login-container {
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    justify-content: center;
-    padding: 20px;
-    width: 100%;
-    box-sizing: border-box; /* Ensure the container does not overflow */
-  }
-
-  .logo {
-    display: block;
-    margin: 0 auto 20px;
-    max-width: 100%; /* Ensure logo doesn't overflow */
+    overflow-x: visible;
+    max-width: 250px;
+    background-color: transparent;
   }
 
   h2 {
     color: white;
     margin-bottom: 30px;
-    max-width: 100%; /* Prevent text overflow */
+    max-width: 100%; /* Prevents text from overflowing */
   }
 
   .input-group {
     margin-bottom: 20px;
     position: relative;
-    max-width: 100%; /* Prevent input group overflow */
+    width: 100%; /* Makes sure the input group fits within the viewport */
+    max-width: 100%; /* Prevents it from overflowing */
   }
 
   .input-group input {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     border: none;
     font-size: 16px;
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Ensures padding is included within the width */
   }
 
   .input-group input::placeholder {
@@ -222,7 +196,7 @@ p a {
   }
 
   .btn {
-    width: 100%;
+    width: 100%; /* Ensures the button scales with its container */
     padding: 10px;
     background-color: rgba(255, 87, 34, 0.9);
     color: white;
@@ -237,8 +211,8 @@ p a {
     background-color: rgba(255, 255, 255, 0.9);
     color: black;
     border: none;
-    width: 100%;
-    box-sizing: border-box;
+    width: 100%; /* Ensures the button scales within its container */
+    box-sizing: border-box; /* Prevents overflow due to padding */
   }
 
   .google-sign-in img {
@@ -274,7 +248,13 @@ p a {
     font-weight: bold;
   }
 
+  .logo-desctop {
+    display: none;
+  }
+
   .logo-mobile {
+    text-align: center;
+    display: inline-block;
     width: 50px;
   }
 }
