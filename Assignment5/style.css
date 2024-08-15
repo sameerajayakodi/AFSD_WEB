@@ -2,19 +2,18 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   display: flex;
-
-  align-items: center;
+  background-position-x: right;
+  align-items: flex-end;
   height: 100vh;
   background-color: #333;
   background-image: url(./background.jpeg);
-  background-position: right;
+  background-position: left;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 170%;
 }
 
 .container {
-  position: absolute;
-
+  position: relative;
   display: flex;
   width: 900px;
   height: 100vh;
@@ -24,9 +23,10 @@ body {
 .login-container {
   border-radius: 0 1rem 1rem 0;
   background-color: white;
-  width: 50%;
-  padding: 40px;
-  box-sizing: border-box;
+
+  min-width: 300px;
+  padding: 60px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
