@@ -130,78 +130,101 @@ p a {
   width: 20px;
 }
 /* ////////////////////////////// */
-@media (max-width: 420px) {
+@media (max-width: 426px) {
   body {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./background.jpeg);
+    background-attachment: fixed; /* Ensures the background image stays fixed */
+    margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
-    height: 100vh;
-    background-image: url(./background.jpeg);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    height: auto;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
   }
 
   .container {
     display: flex;
-
-    height: 100%;
-    border-radius: 10px;
+    flex-direction: column;
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 15px;
+    box-sizing: border-box; /* Prevent overflow due to padding */
+    overflow-x: hidden; /* Prevent horizontal scrolling in the container */
   }
 
   .login-container {
-    border-radius: 0 1rem 1rem 0;
-    background-color: lightcoral;
-    min-width: 300px;
-
+    background-color: transparent;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box; /* Ensure the container does not overflow */
   }
 
-  .logo-desctop {
-    align-self: center;
-    text-align: center;
-    width: 50px;
+  .logo {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%; /* Ensure logo doesn't overflow */
   }
 
   h2 {
-    text-align: center;
-    color: #ff5722;
+    color: white;
+    margin-bottom: 30px;
+    max-width: 100%; /* Prevent text overflow */
   }
 
   .input-group {
     margin-bottom: 20px;
     position: relative;
+    max-width: 100%; /* Prevent input group overflow */
   }
 
   .input-group input {
     width: 100%;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
-    background-color: #f1f1f1;
     font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    box-sizing: border-box;
+  }
+
+  .input-group input::placeholder {
+    color: white;
   }
 
   .eye-icon {
     position: absolute;
-    right: 10spx;
+    right: 10px;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
+    color: white;
   }
 
   .options {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
+    color: white;
     margin-bottom: 20px;
   }
 
   .btn {
     width: 100%;
     padding: 10px;
-    background-color: #ff5722;
+    background-color: rgba(255, 87, 34, 0.9);
     color: white;
     border: none;
     border-radius: 5px;
@@ -211,16 +234,23 @@ p a {
   }
 
   .google-sign-in {
-    background-color: white;
-    color: #757575;
-    border: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .google-sign-in img {
+    vertical-align: middle;
+    margin-right: 10px;
   }
 
   .divider {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #ddd;
+    color: white;
     font-size: 14px;
     margin-bottom: 20px;
   }
@@ -228,36 +258,23 @@ p a {
   .divider hr {
     width: 45%;
     border: none;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid white;
   }
 
   p {
     text-align: center;
     font-size: 14px;
+    color: white;
+    margin: 0;
   }
 
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
   p a {
-    color: #ff5722;
+    color: white;
     text-decoration: none;
-  }
-
-  .background-image {
-    width: 50%;
-    background-image: url("background.jpg");
-    background-size: cover;
-    background-position: center;
+    font-weight: bold;
   }
 
   .logo-mobile {
-    display: none;
-  }
-  .google-icon {
-    position: relative;
-    top: 2px;
-    width: 20px;
+    width: 50px;
   }
 }
