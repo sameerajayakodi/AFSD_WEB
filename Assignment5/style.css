@@ -144,20 +144,25 @@ p a {
   }
 
   .login-container {
-    text-align: center;
-    overflow-x: visible;
-    max-width: 250px;
+    margin-top: 50px;
+    position: absolute;
     background-color: transparent;
   }
 
+  form {
+    margin-top: 30px;
+  }
+
   h2 {
+    position: relative;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 30px 0 30px 0;
     max-width: 100%; /* Prevents text from overflowing */
   }
 
   .input-group {
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     position: relative;
     width: 100%; /* Makes sure the input group fits within the viewport */
     max-width: 100%; /* Prevents it from overflowing */
@@ -169,7 +174,7 @@ p a {
     border-radius: 5px;
     border: none;
     font-size: 16px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.521);
     color: white;
     box-sizing: border-box; /* Ensures padding is included within the width */
   }
@@ -197,27 +202,35 @@ p a {
 
   .btn {
     width: 100%; /* Ensures the button scales with its container */
-    padding: 10px;
+    padding: 20px;
     background-color: rgba(255, 87, 34, 0.9);
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
 
   .google-sign-in {
-    background-color: rgba(255, 255, 255, 0.9);
-    color: black;
-    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 10px;
     width: 100%; /* Ensures the button scales within its container */
     box-sizing: border-box; /* Prevents overflow due to padding */
+    padding: 15px; /* Adds padding inside the button */
+    font-size: 16px; /* Adjust font size if needed */
   }
 
   .google-sign-in img {
-    vertical-align: middle;
-    margin-right: 10px;
+    width: 30px; /* Sets the width of the image */
+    margin-right: 10px; /* Adds spacing between the image and text */
+    vertical-align: middle; /* Ensures image is aligned with the text */
   }
 
   .divider {
@@ -239,7 +252,7 @@ p a {
     text-align: center;
     font-size: 14px;
     color: white;
-    margin: 0;
+    margin-top: 40px;
   }
 
   p a {
@@ -255,6 +268,6 @@ p a {
   .logo-mobile {
     text-align: center;
     display: inline-block;
-    width: 50px;
+    width: 80px;
   }
 }
