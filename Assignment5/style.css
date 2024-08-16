@@ -39,9 +39,23 @@ h2 {
   position: relative;
 }
 
+input::placeholder {
+  position: relative;
+  left: 10px;
+}
+
+input:focus::placeholder {
+  font-size: 12px;
+  transform: translateY(-15px);
+  opacity: 0.7;
+}
+
 .input-group input {
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
   width: 100%;
-  padding: 10px;
+  padding: 17px 0;
   border-radius: 10px;
   border: none;
   background-color: #f1f1f1;
@@ -79,8 +93,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
-  border: 2px solid black;
+  color: #606060;
+  border: 2px solid #606060;
   background-color: transparent;
   border-radius: 10px;
   width: 100%;
@@ -111,6 +125,8 @@ h2 {
 }
 
 p {
+  position: relative;
+  top: 4rem;
   text-align: center;
   font-size: 14px;
 }
@@ -121,7 +137,7 @@ a {
 }
 
 p a {
-  color: #ff5722;
+  color: #606060;
 }
 
 .background-image {
@@ -138,20 +154,15 @@ p a {
 }
 
 .check {
-  vertical-align: middle;
-  width: 20px; /* Adjust width as needed */
-  height: 20px; /* Adjust height as needed */
-  padding: 10px; /* Apply padding */
-  background-color: transparent; /* Make background transparent */
-  border: 1px solid #606060;
-  border-radius: 5px; /* Border to make the checkbox visible */
-  -webkit-appearance: none; /* Remove default styling on WebKit browsers */
-  -moz-appearance: none; /* Remove default styling on Firefox */
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
-}
-
-.check:checked {
-  background-color: blue;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid #606060;
+  border-radius: 5px;
 }
 
 .logo-desctop {
@@ -162,7 +173,7 @@ p a {
   display: none;
 }
 
-@media (max-width: 426px) {
+@media only screen and (max-width: 426px) {
   body {
     text-align: center;
     background-size: cover;
@@ -183,7 +194,10 @@ p a {
   }
 
   .check {
-    border: none;
+    background-color: transparent;
+    border: 2px solid white;
+
+    vertical-align: middle;
   }
 
   form {
@@ -192,15 +206,22 @@ p a {
 
   h2 {
     color: white;
-    margin-bottom: 30px;
+    position: relative;
+    top: 10px;
     max-width: 100%;
   }
 
   .input-group {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
     width: 100%;
     max-width: 100%;
+  }
+  input:focus::placeholder {
+    font-size: 12px;
+    transform: translateY(-15px);
+    opacity: 0.7;
   }
 
   .input-group input {
@@ -226,17 +247,20 @@ p a {
   }
 
   .options {
+    position: relative;
     display: flex;
     justify-content: space-between;
     font-size: 14px;
     color: white;
+    top: 10px;
     margin-bottom: 20px;
   }
 
   .btn {
     width: 100%;
     padding: 20px;
-    background-color: rgba(255, 87, 34, 0.9);
+    background-color: #ff451c;
+
     color: white;
     border: none;
     border-radius: 5px;
@@ -301,6 +325,6 @@ p a {
   .logo-mobile {
     text-align: center;
     display: inline-block;
-    width: 80px;
+    width: 100px;
   }
 }
