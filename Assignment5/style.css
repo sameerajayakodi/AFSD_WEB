@@ -165,6 +165,10 @@ p a {
   border-radius: 5px;
 }
 
+.check::after {
+  background-color: red;
+}
+
 .logo-desctop {
   width: 50px;
 }
