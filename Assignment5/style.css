@@ -1,4 +1,5 @@
 body {
+  color: #606060;
   text-align: center;
   margin: 0;
   font-family: Arial, sans-serif;
@@ -137,7 +138,20 @@ p a {
 }
 
 .check {
-  background-color: transparent;
+  vertical-align: middle;
+  width: 20px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  padding: 10px; /* Apply padding */
+  background-color: transparent; /* Make background transparent */
+  border: 1px solid #606060;
+  border-radius: 5px; /* Border to make the checkbox visible */
+  -webkit-appearance: none; /* Remove default styling on WebKit browsers */
+  -moz-appearance: none; /* Remove default styling on Firefox */
+  appearance: none;
+}
+
+.check:checked {
+  background-color: blue;
 }
 
 .logo-desctop {
