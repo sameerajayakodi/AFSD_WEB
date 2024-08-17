@@ -7,4 +7,42 @@
   height: 100px;
   width: 100px;
   background-color: lightgreen;
+  position: relative;
+  animation-name: sample;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sample {
+  /* from {
+    background-color: lightskyblue;
+    top: 0;
+    left: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background-color: lightcoral;
+    top: 0;
+    left: 1000px;
+    transform: rotate(2000deg);
+  } */
+
+  0% {
+    background-color: blue;
+    top: 0;
+    left: 0;
+  }
+  50% {
+    background-color: red;
+    top: 300px;
+    left: 400px;
+  }
+  100% {
+    background-color: black;
+    top: 0;
+    left: 800px;
+  }
 }
