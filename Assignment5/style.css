@@ -12,6 +12,7 @@ body {
 }
 
 .container {
+  height: auto;
   text-align: center;
   display: flex;
   width: 900px;
@@ -126,7 +127,6 @@ input:focus::placeholder {
 }
 
 p {
-  position: relative;
   top: 4rem;
   text-align: center;
   font-size: 14px;
