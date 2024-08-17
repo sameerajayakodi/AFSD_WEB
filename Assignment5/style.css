@@ -109,7 +109,7 @@ input:focus::placeholder {
   vertical-align: middle;
 }
 
-.divider {
+.line {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -118,7 +118,7 @@ input:focus::placeholder {
   margin-bottom: 20px;
 }
 
-.divider hr {
+.line hr {
   width: 45%;
   border: none;
   border-top: 1px solid #ddd;
