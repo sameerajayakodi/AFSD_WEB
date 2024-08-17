@@ -41,23 +41,27 @@
     top: 0;
     left: 500px;
     transform: rotate(360deg);
+    opacity: 75%;
   }
   50% {
     background-color: red;
     top: 500px;
     left: 500px;
     transform: rotate(720deg);
+    opacity: 50%;
   }
   75% {
     background-color: blueviolet;
     top: 500px;
     left: 0;
-    transform: rotate(360deg);
+    transform: rotate(1080deg);
+    opacity: 25%;
   }
   100% {
     background-color: black;
     top: 0;
     left: 0;
-    transform: rotate(-360deg);
+    transform: rotate(1440deg);
+    opacity: 0;
   }
 }
