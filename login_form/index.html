@@ -3,20 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Form</title>
+    <title>Microsoft Style Login</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="login-container">
+      <div class="logo">
+        <img src="./logo.jpg" alt="Microsoft Logo" />
+      </div>
       <form class="login-form">
-        <h2>Login</h2>
+        <h1>Sign in</h1>
+        <br />
         <div class="input-group">
-          <input type="text" placeholder="Username" required />
+          <input type="text" placeholder="Email or phone" required />
         </div>
         <div class="input-group">
           <input type="password" placeholder="Password" required />
         </div>
-        <button type="submit">Login</button>
+        <button type="submit">Sign in</button>
+        <div class="options">
+          <a href="#">Can't access your account?</a>
+        </div>
       </form>
     </div>
   </body>
