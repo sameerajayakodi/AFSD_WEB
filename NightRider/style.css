@@ -4,9 +4,12 @@
 }
 
 .lightBar {
+  flex-direction: row;
   display: flex;
-  flex-wrap: nowrap;
+  background-color: red;
 }
 
 .light {
+  border: 2px solid darkred;
+  padding: 1rem;
 }
