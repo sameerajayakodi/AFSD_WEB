@@ -12,24 +12,31 @@ body {
 
 .lightBar {
   display: flex;
+  padding: 10px;
   background-color: red;
   box-sizing: border-box;
 }
 
 .light {
-  padding: 1rem;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
   background-color: darkred;
+
+  box-shadow: 0 0 10px 5px darkred;
 }
 
 @keyframes knightRider {
   0%,
   100% {
     background-color: darkred;
+    box-shadow: 0 0 10px 5px darkred; /* Subtle glow when off */
   }
 
   8.33%,
   91.67% {
     background-color: red;
+    box-shadow: 0 0 20px 10px red, 0 0 40px 20px red; /* Brighter glow when on */
   }
 }
 
