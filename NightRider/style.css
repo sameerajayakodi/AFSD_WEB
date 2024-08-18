@@ -11,62 +11,54 @@ body {
 }
 
 .lightBar {
-  flex-direction: row;
   display: flex;
   background-color: red;
-  width: fit-content;
-  animation-name: sample;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+  box-sizing: border-box;
 }
 
 .light {
-  border: 2px solid darkred;
   padding: 1rem;
+  background-color: darkred;
 }
 
-.div {
-  height: 100px;
-  width: 100px;
-  background-color: lightgreen;
-  position: relative;
-  animation-name: sample;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-}
-@keyframes sample {
-  0% {
-    background-color: blue;
-    top: 0;
-    left: 0;
-    /* transform: rotate(360deg); */
-  }
-  25% {
-    background-attachment: green;
-    top: 0;
-    left: 500px;
-    transform: rotate(360deg);
-    opacity: 75%;
-  }
-  50% {
-    background-color: red;
-    top: 500px;
-    left: 500px;
-    transform: rotate(720deg);
-    opacity: 50%;
-  }
-  75% {
-    background-color: blueviolet;
-    top: 500px;
-    left: 0;
-    transform: rotate(1080deg);
-    opacity: 25%;
-  }
+@keyframes knightRider {
+  0%,
   100% {
-    background-color: black;
-    top: 0;
-    left: 0;
-    transform: rotate(1440deg);
-    opacity: 0;
+    background-color: darkred;
   }
+
+  8.33%,
+  91.67% {
+    background-color: red;
+  }
+}
+
+.light_1 {
+  animation: knightRider 2s infinite ease-in-out;
+  animation-delay: 0s;
+}
+
+.light_2 {
+  animation: knightRider 2s infinite ease-in-out;
+  animation-delay: 0.166s;
+}
+
+.light_3 {
+  animation: knightRider 2s infinite ease-in-out;
+  animation-delay: 0.333s;
+}
+
+.light_4 {
+  animation: knightRider 2s infinite ease-in-out;
+  animation-delay: 0.5s;
+}
+
+.light_5 {
+  animation: knightRider 2s infinite ease-in-out;
+  animation-delay: 0.666s;
+}
+
+.light_6 {
+  animation: knightRider 2s infinite ease-in-out;
+  animation-delay: 0.833s;
 }
