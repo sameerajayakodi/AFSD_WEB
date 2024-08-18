@@ -1,58 +1,49 @@
-/* .div {
-  background-color: violet;
-  height: 150px;
-  width: 150px;
-  transition: background-color 1s;
-  transition: scale 1s;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
 }
-
-.div:hover {
-  background-color: lightseagreen;
-  scale: 0.9;
-} */
-
 .circle {
-  background-color: violet;
   height: 150px;
   width: 150px;
+  border-radius: 50%;
   position: relative;
   animation-name: sample;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
 @keyframes sample {
   0% {
-    background-color: blue;
-    top: 300px;
-    left: 500px;
+    padding: 1rem;
+    background-color: yellow;
+
+    scale: 1;
   }
   25% {
-    background-attachment: green;
-    top: 200px;
-    left: 400px;
-    transform: rotate(360deg);
-    opacity: 75%;
+    padding: 1rem;
+    background-color: orange;
+
+    scale: 2;
   }
   50% {
-    background-color: red;
-    top: 300px;
-    left: 400px;
-    transform: rotate(720deg);
-    opacity: 50%;
+    padding: 1rem;
+    background-color: green;
+
+    scale: 3;
   }
   75% {
-    background-color: blueviolet;
-    top: 100px;
-    left: 0;
-    transform: rotate(1080deg);
-    opacity: 25%;
+    padding: 1rem;
+    background-color: blue;
+
+    scale: 4;
   }
   100% {
-    background-color: black;
-    top: 0;
-    left: 0;
-    transform: rotate(1440deg);
-    opacity: 0;
+    padding: 1rem;
+    background-color: red;
+    opacity: 3;
+    scale: 5;
   }
 }
