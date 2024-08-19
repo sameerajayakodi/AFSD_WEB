@@ -15,6 +15,7 @@ body {
 .knight-rider {
   display: flex;
   justify-content: space-between;
+  width: 300px;
 }
 
 .light {
