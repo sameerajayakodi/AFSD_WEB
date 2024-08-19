@@ -23,6 +23,8 @@ body {
   height: 20px;
   background-color: red;
   border-radius: 10px;
+  opacity: 0.2;
+  animation: knight-rider-animation;
 }
 
 @keyframes knightRider {
