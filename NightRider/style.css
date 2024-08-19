@@ -27,44 +27,28 @@ body {
   animation: knight-rider-animation;
 }
 
-@keyframes knightRider {
-  0%,
-  100% {
-    background-color: rgb(255, 0, 0);
-  }
-
-  8.33%,
-  91.67% {
-    background-color: rgb(255, 0, 0);
-  }
-}
-
-.light_1 {
-  animation: knightRider 2s infinite ease-in-out;
+.light:nth-child(1) {
   animation-delay: 0s;
 }
-
-.light_2 {
-  animation: knightRider 2s infinite ease-in-out;
-  animation-delay: 0.166s;
+.light:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.light:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.light:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.light:nth-child(5) {
+  animation-delay: 0.8s;
 }
 
-.light_3 {
-  animation: knightRider 2s infinite ease-in-out;
-  animation-delay: 0.333s;
-}
-
-.light_4 {
-  animation: knightRider 2s infinite ease-in-out;
-  animation-delay: 0.5s;
-}
-
-.light_5 {
-  animation: knightRider 2s infinite ease-in-out;
-  animation-delay: 0.666s;
-}
-
-.light_6 {
-  animation: knightRider 2s infinite ease-in-out;
-  animation-delay: 0.833s;
+@keyframes knight-rider-animation {
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
 }
