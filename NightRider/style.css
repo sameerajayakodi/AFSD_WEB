@@ -21,6 +21,7 @@ body {
 .light {
   width: 40px;
   height: 20px;
+  background-color: red;
 }
 
 @keyframes knightRider {
