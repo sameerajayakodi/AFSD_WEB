@@ -12,13 +12,8 @@ body {
   margin: 0;
 }
 
-.lightBar {
-  border-radius: 1rem;
+.knight-rider {
   display: flex;
-  padding: 10px;
-  background-color: rgb(255, 77, 77);
-
-  box-shadow: 0 0 10px 5px darkred;
 }
 
 .light {
