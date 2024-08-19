@@ -20,7 +20,8 @@ body {
   background-color: red;
   border-radius: 10px;
   opacity: 0.2;
-  animation: knight-rider-animation 2s infinite linear;
+  animation: knight-rider-animation 0.3s infinite linear;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
 }
 
 .light:nth-child(1) {
@@ -43,6 +44,7 @@ body {
   0%,
   100% {
     opacity: 0.1;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
   }
   50% {
     opacity: 2;
