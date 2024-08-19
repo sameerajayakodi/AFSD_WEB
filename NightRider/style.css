@@ -1,14 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: white;
+  background-color: #000;
   margin: 0;
 }
 
@@ -24,7 +19,7 @@ body {
   background-color: red;
   border-radius: 10px;
   opacity: 0.2;
-  animation: knight-rider-animation;
+  animation: knight-rider-animation 2s infinite linear;
 }
 
 .light:nth-child(1) {
@@ -46,9 +41,9 @@ body {
 @keyframes knight-rider-animation {
   0%,
   100% {
-    opacity: 0.2;
+    opacity: 0.1;
   }
   50% {
-    opacity: 1;
+    opacity: 2;
   }
 }
