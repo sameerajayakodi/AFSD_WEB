@@ -1,42 +1,108 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #87ceeb;
 }
 
 .animation-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.background {
-    background: url('background.jpg') no-repeat center center;
-    background-size: cover;
-    position: absolute;
-    width: 200%;
-    height: 100%;
-    animation: moveBackground 10s linear infinite;
+.sky {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("sky.jpg") no-repeat center center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.city-road {
+  position: absolute;
+  width: 200%;
+  height: 50%;
+  bottom: 0;
+  animation: moveCityRoad 20s linear infinite;
+  z-index: 2;
+}
+
+.city {
+  position: absolute;
+  bottom: 180px;
+  width: 100%;
+  height: 80%;
+  background: url("city.png") repeat-x;
+  z-index: 2;
+}
+
+.road {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60%;
+  background: url("road.jpg") repeat-x;
+  background-size: cover;
+  z-index: 3;
 }
 
 .car {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  z-index: 4;
+}
+
+.wheel {
+  position: absolute;
+  top: 30px;
+  width: 20%;
+  height: auto;
+}
+
+.car_image {
+  top: -50px;
+  position: relative;
+  width: 400px;
+}
+
+.front-wheel {
+  left: 69%;
+  animation: spin 1s linear infinite;
+}
+
+.back-wheel {
+  left: 8%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes moveCityRoad {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
     transform: translateX(-50%);
-    height: 100px;
-    animation: bounce 1s ease infinite alternate;
+  }
 }
 
-@keyframes moveBackground {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
-}
-
-@keyframes bounce {
-    0% { transform: translate(-50%, 0); }
-    100% { transform: translate(-50%, -10px); }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
