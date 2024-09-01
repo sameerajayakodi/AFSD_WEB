@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hopelink</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/e98c6c6906.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="bg-white text-gray-800">
     <!-- Header -->
     <header class="bg-white shadow-sm">
-      <div class="container mx-auto flex justify-between items-center py-4">
+      <div
+        class="container mx-auto flex justify-between items-center py-4 px-4 lg:px-8"
+      >
         <a href="#" class="text-3xl font-bold text-red-600">hopelink</a>
-        <nav class="flex space-x-6">
+        <nav class="hidden md:flex space-x-6">
           <a href="#" class="text-gray-600">Campaigns</a>
           <a href="#" class="text-gray-600">About Us</a>
         </nav>
@@ -25,7 +31,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-red-50 py-16">
+    <section class="bg-red-50 py-16 px-4 lg:px-8">
       <div class="container mx-auto flex flex-col items-center text-center">
         <h1 class="text-4xl font-bold text-gray-800">
           Make an impact to the world.
@@ -33,7 +39,9 @@
         <p class="text-lg text-gray-600 mt-4">
           We offer complete solutions to launch your donation campaigns.
         </p>
-        <div class="mt-8 flex space-x-4">
+        <div
+          class="mt-8 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4"
+        >
           <button class="bg-red-600 text-white px-6 py-3 rounded">
             Get Started
           </button>
@@ -45,12 +53,14 @@
     </section>
 
     <!-- Features Section -->
-    <section class="py-16">
+    <section class="py-16 px-4 lg:px-8">
       <div class="container mx-auto text-center">
         <h2 class="text-3xl font-bold text-gray-800 mb-8">
           Start your campaign today
         </h2>
-        <div class="flex justify-around">
+        <div
+          class="flex flex-col md:flex-row justify-around space-y-8 md:space-y-0"
+        >
           <div class="max-w-xs text-center">
             <img
               src="path/to/your/icon1.png"
@@ -92,12 +102,14 @@
     </section>
 
     <!-- Campaign Section -->
-    <section class="bg-red-50 py-16">
+    <section class="bg-red-50 py-16 px-4 lg:px-8">
       <div class="container mx-auto text-center">
         <h2 class="text-3xl font-bold text-gray-800 mb-8">
           Your donation matters
         </h2>
-        <div class="flex justify-around">
+        <div
+          class="flex flex-col md:flex-row justify-around space-y-8 md:space-y-0"
+        >
           <div class="max-w-xs bg-white shadow rounded p-4">
             <img
               src="path/to/your/image1.png"
@@ -161,21 +173,53 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 py-12">
-      <div class="container mx-auto text-center text-gray-400">
-        <p>© 2024 Hopelink. All rights reserved.</p>
-        <nav class="flex justify-center space-x-4 mt-4">
-          <a href="#" class="hover:text-white">Campaigns</a>
-          <a href="#" class="hover:text-white">About us</a>
-          <a href="#" class="hover:text-white">Privacy Policy</a>
-          <a href="#" class="hover:text-white">Terms of Service</a>
-          <a href="#" class="hover:text-white">Help center</a>
-        </nav>
-        <div class="mt-8 flex justify-center space-x-4">
-          <img src="path/to/visa.png" alt="Visa" class="w-8 h-8" />
-          <img src="path/to/paypal.png" alt="PayPal" class="w-8 h-8" />
-          <img src="path/to/norton.png" alt="Norton" class="w-8 h-8" />
+    <!-- Footer Section -->
+    <footer class="bg-[#2C1C18] text-gray-300 py-10">
+      <div
+        class="container mx-auto px-20 flex flex-col md:flex-row justify-between items-center md:items-start"
+      >
+        <!-- Left Side: About Section -->
+        <div class="text-center md:text-left md:w-1/2">
+          <h3 class="text-lg font-semibold text-white mb-4">
+            What is hopelink?
+          </h3>
+          <p class="mb-6">
+            hopelink is a secure donation platform that connects donors with
+            impactful causes. Create, manage, and track campaigns easily while
+            ensuring transparent transactions and real-time updates to drive
+            meaningful change.
+          </p>
+          <div class="flex justify-center md:justify-start space-x-4">
+            <img src="./visa.png" alt="Visa" class="h-10" />
+            <img src="./card.png" alt="MasterCard" class="h-8" />
+            <img src="./paypal.png" alt="PayPal" class="h-8" />
+            <img src="./shield.png" alt="Norton" class="h-6" />
+          </div>
         </div>
+
+        <!-- Right Side: Links Section -->
+        <div class="text-center md:text-right md:w-1/2 mt-8 md:mt-0">
+          <h3 class="text-lg font-semibold text-white mb-4">Company</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-white">Campaigns</a></li>
+            <li><a href="#" class="hover:text-white">About us</a></li>
+            <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-white">Terms of service</a></li>
+            <li><a href="#" class="hover:text-white">Help center</a></li>
+            <li><a href="#" class="hover:text-white">Support desk</a></li>
+          </ul>
+          <div class="flex justify-center md:justify-end space-x-4 mt-6">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Section -->
+      <div class="mt-8 border-t border-gray-700 pt-4 text-center text-gray-400">
+        <p>© 2024 hopelink. All rights reserved.</p>
       </div>
     </footer>
   </body>
