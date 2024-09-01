@@ -81,12 +81,12 @@ html {
 
 .front-wheel {
   left: 69%;
-  animation: spin 1s linear infinite;
+  animation: spin 3s linear infinite;
 }
 
 .back-wheel {
   left: 8%;
-  animation: spin 1s linear infinite;
+  animation: spin 3s linear infinite;
 }
 
 @keyframes moveCityRoad {
