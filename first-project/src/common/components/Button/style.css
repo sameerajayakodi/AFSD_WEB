@@ -1,0 +1,26 @@
+.btn {
+    /* background-color: blue; */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 7px;
+    margin: 3px;
+}
+
+.outline-btn {
+    background-color: white;
+    color: 'blue';
+    border: 2px solid blue;
+    padding: 12px;
+    border-radius: 7px;
+    margin: 3px;
+}
+
+.rounded-btn {
+    /* background-color: blue; */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    margin: 3px;
+}
