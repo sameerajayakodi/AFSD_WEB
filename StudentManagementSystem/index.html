@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Student Management System</title>
-    <!-- Bootstrap CSS -->
+    
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <style>
-      /* Ensure card images are responsive */
+      
       .card-img-top {
         width: 100px;
         height: 100px;
@@ -19,7 +19,7 @@
     </style>
   </head>
   <body class="bg-light">
-    <!-- Header Section -->
+   
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
         <span class="navbar-brand mb-0 h1">Student Management System</span>
@@ -35,7 +35,7 @@
       </div>
     </nav>
 
-    <!-- Add Student Button -->
+    
     <div class="container mt-3">
       <div class="d-flex justify-content-end">
         <button
@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <!-- Modal for Adding Student -->
+    
     <div
       class="modal flex fade mt-5"
       id="addStudentModal"
@@ -68,7 +68,7 @@
             ></button>
           </div>
           <div class="modal-body">
-            <!-- Add Student Form -->
+            
             <form id="studentForm">
               <div class="mb-3">
                 <input
@@ -131,25 +131,24 @@
       </div>
     </div>
 
-    <!-- Student Cards Section -->
+    
     <div class="container mt-3">
       <div class="row g-3" id="studentList">
-        <!-- Students will be dynamically added here -->
+        
       </div>
     </div>
 
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- JS Script for handling student data -->
+    
     <script>
-      // Initialize an empty array to store student data
+      
       let students = [];
 
-      // Function to render student cards dynamically
+      
       function renderStudents() {
         const studentList = document.getElementById("studentList");
-        studentList.innerHTML = ""; // Clear existing students
+        studentList.innerHTML = ""; 
         students.forEach((student, index) => {
           const studentCard = `
             <div class="col-lg-4 col-md-6 col-sm-12">
@@ -192,7 +191,7 @@
         });
       }
 
-      // Function to add a student
+      
       document
         .getElementById("addStudentBtn")
         .addEventListener("click", function () {
@@ -211,19 +210,19 @@
               gender: gender,
             });
 
-            // Reset the form fields
+            
             document.getElementById("studentForm").reset();
-            // Close the modal
+            
             var modal = bootstrap.Modal.getInstance(
               document.getElementById("addStudentModal")
             );
             modal.hide();
-            // Re-render students
+            
             renderStudents();
           }
         });
 
-      // Function to delete a student
+      
       function deleteStudent(index) {
         students.splice(index, 1);
         renderStudents();
