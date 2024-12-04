@@ -1,0 +1,11 @@
+.app {
+  display: block;
+
+  color: black;
+  font-family: inter;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
