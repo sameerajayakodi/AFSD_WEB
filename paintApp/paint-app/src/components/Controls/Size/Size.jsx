@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import Slider from "@mui/material/Slider";
-
+import "./Size.css";
 export default function Size({ onChange }) {
   const handleSizeChange = (event, newValue) => {
     if (onChange) {
