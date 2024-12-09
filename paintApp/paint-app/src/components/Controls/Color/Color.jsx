@@ -3,7 +3,7 @@ import { MuiColorInput } from "mui-color-input";
 import { useState } from "react";
 
 export default function Color({ onChange }) {
-  const [value, setValue] = useState("blue");
+  const [value, setValue] = useState("black");
 
   const handleChange = (newValue) => {
     setValue(newValue);
@@ -15,16 +15,8 @@ export default function Color({ onChange }) {
 
   return (
     <div className="color">
-      <MuiColorInput
-        style={{
-          backgroundColor: "white",
-          width: "200px",
-          borderRadius: "5px",
-        }}
-        format="hex"
-        value={value}
-        onChange={handleChange}
-      />
+      <MuiColorInput format="hex" value={value} onChange={handleChange} />
+      <p>Choose Color</p>
     </div>
   );
 }
