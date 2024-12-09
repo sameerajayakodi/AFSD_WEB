@@ -1,3 +1,4 @@
+import Button from "@mui/material/Button";
 import { useEffect, useRef, useState } from "react";
 import Clear from "../Controls/Clear/Clear";
 import Color from "../Controls/Color/Color";
@@ -25,6 +26,7 @@ export default function Canvas() {
     context.lineWidth = brushSize;
     context.globalAlpha = brushOpacity;
     canvas.style.curser = "crosshair";
+    canvas.style.backgroundColor = "white";
 
     contextRef.current = context;
   }, []);
@@ -65,6 +67,26 @@ export default function Canvas() {
     contextRef.current.clearRect(0, 0, window.innerWidth, window.innerHeight);
   };
 
+  // const aiGenerate = () => {
+  //   const genAI = new GoogleGenerativeAI(
+  //     "AIzaSyBKVb2RuVSuQbYHf0oeyTMCBen4J4yVseI"
+  //   );
+  //   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+
+  //   async function generateResponse() {
+  //     try {
+  //       const result = await model.generateContent("Explain how AI works");
+
+  //       // Ensure that the response text is accessed correctly
+  //       console.log(result.response.text);
+  //     } catch (error) {
+  //       console.error("Error generating content:", error);
+  //     }
+  //   }
+
+  //   generateResponse();
+  // };
+
   return (
     <div className="canvas-div">
       <div className="nav">
@@ -90,6 +112,19 @@ export default function Canvas() {
           }}
         ></canvas>
       </div>
+      <Button
+        // onClick={aiGenerate}
+        style={{
+          position: "fixed",
+          bottom: "20px",
+          right: "20px",
+          backgroundColor: "black",
+          padding: "20px",
+        }}
+        variant="contained"
+      >
+        AI Generate
+      </Button>
     </div>
   );
 }
