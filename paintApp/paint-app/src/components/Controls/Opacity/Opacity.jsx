@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import Slider from "@mui/material/Slider";
-
+import "./Opacity.css";
 export default function Opacity({ onChange }) {
   const handleOpacityChange = (event, newValue) => {
     if (onChange) {
