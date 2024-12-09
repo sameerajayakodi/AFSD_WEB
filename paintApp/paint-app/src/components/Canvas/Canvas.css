@@ -1,8 +1,16 @@
 .controller {
   margin-right: 3rem;
-  color: white;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
   gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
 }
 
 .nav {
@@ -10,7 +18,7 @@
   top: 0;
   align-items: center;
   color: white;
-  background-color: #001f3f;
+  background-color: #0d1140;
   display: flex;
   justify-content: space-between;
   width: 100%;
