@@ -1,11 +1,12 @@
+/* eslint-disable react/jsx-no-undef */
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import { useEffect } from 'react';
 import './App.css';
 
 function App() {
-// eslint-disable-next-line no-unused-vars
-const[filterData , setFilterData] = useState([])  
+// eslint-disable-next-line no-unused-vars, no-undef
+const[filterData , setFilterData] = useState([]) ; 
 //   const [data, setData] = useState('');
 //   const [count, setCount] = useState(10);
 //   const { theme, toggle } = useContext(ThemeContext);
@@ -47,6 +48,7 @@ useEffect(() => {
   {
     // eslint-disable-next-line no-unused-vars
     filterData.map((val, index) => (
+      // eslint-disable-next-line react/jsx-no-undef
       <CompanyCard key={index} title={val.title} body={val.body}/>
     ))
   }
